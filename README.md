@@ -15,8 +15,7 @@ Ensure you have the following installed on your machine:
 
 ### **1. Clone the Repository**
 
-```bash
-bashCopy code
+```
 git clone https://github.com/Ashish-Nagar-027/React-Movies-app
 cd React-Movies-app
 ```
@@ -25,8 +24,8 @@ cd React-Movies-app
 
 Using npm:
 
-```bash
-bashCopy code
+```
+
 npm install
 
 ```
@@ -34,7 +33,7 @@ npm install
 Or using Yarn:
 
 ```bash
-bashCopy code
+
 yarn install
 
 ```
@@ -53,16 +52,14 @@ VITE_MOVIES_DATA_API="https://dummyapi.online/api/movies"
 
 Using npm:
 
-```bash
-bashCopy code
+```
 npm run dev
 
 ```
 
 Or using Yarn:
 
-```bash
-bashCopy code
+```
 yarn dev
 
 ```
