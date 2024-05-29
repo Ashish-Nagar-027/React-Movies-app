@@ -18,12 +18,31 @@ const MovieCard = ({ movieData }) => {
   return (
     <div
       onClick={handleRedirect}
-      className=" flex flex-col space-between  h-[150px] w-[250px] p-2 border border-1 border-black rounded shadow-md bg-white "
+      className=" 
+      transition-all duration-500 ease-in-out
+      flex flex-col  
+      justify-around   
+      h-[150px] w-[250px] 
+      p-2 border border-1 
+       border-slate-300
+  
+      rounded 
+      bg-white 
+      hover:scale-[1.03]
+       hover:border-slate-600
+      
+      "
     >
       <Favorite_Icon id={id} />
       <div className="">
-        <h1>Name : {movie}</h1>
-        <h1>IMDB Rating: {rating}</h1>
+        <h1>
+          <span className="font-bold">Movie Name : </span>
+          <span className="text-blue-600">{movie}</span>
+        </h1>
+        <h1>
+          <span className="font-bold">IMDB Rating: </span>
+          <span className="text-blue-600">{rating}</span>
+        </h1>
       </div>
     </div>
   );
