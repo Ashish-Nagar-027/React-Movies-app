@@ -4,9 +4,6 @@ import { NavLink } from "react-router-dom";
 const NavBar = () => {
 
   const favoriteMovies = useSelector((state) => state.FavMoviesData.FavMovies);
-  
-
-
 
   return (
     <div className="flex flex-row mb-5  bg-slate-300 ">
